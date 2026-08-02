@@ -10,7 +10,7 @@
 
 <a href="https://www.linkedin.com/in/yasser-badrii"><img src="https://img.shields.io/badge/LinkedIn-0B6E63?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:badriiyasser@gmail.com"><img src="https://img.shields.io/badge/Email-C98F2A?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-1E2521?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+<a href="https://yasserbadri.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-1E2521?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 
 </div>
 
