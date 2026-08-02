@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b6e63,100:c98f2a&height=220&section=header&text=Yasser%20Badri&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Computer%20Engineer%20—%20Software%20Development%20%26%20AI&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b6e63,100:c98f2a&height=220&section=header&text=Yasser%20Badri&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Computer%20Engineer%20%E2%80%94%20Software%20Development%20%26%20AI&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -10,7 +10,7 @@
 
 <a href="https://www.linkedin.com/in/yasser-badrii"><img src="https://img.shields.io/badge/LinkedIn-0B6E63?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:badriiyasser@gmail.com"><img src="https://img.shields.io/badge/Email-C98F2A?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://yasserbadri.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-1E2521?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Portfolio-1E2521?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 
 </div>
 
