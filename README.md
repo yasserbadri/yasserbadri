@@ -83,19 +83,19 @@ FastAPI, Angular, Spring Boot, LLM integration, Docker/K8s
 <tr>
 <td width="50%">
 <a href="https://github.com/yasserbadri/AI_Content_Platform">
-<img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=yasserbadri&repo=AI_Content_Platform&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec" />
+<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=AI_Content_Platform&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec" />
 </a>
 </td>
 <td width="50%">
 <a href="https://github.com/yasserbadri/EasyFreelance">
-<img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=yasserbadri&repo=EasyFreelance&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec" />
+<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=EasyFreelance&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec" />
 </a>
 </td>
 </tr>
 <tr>
 <td width="50%">
 <a href="https://github.com/yasserbadri/CovoiturageApp">
-<img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=yasserbadri&repo=CovoiturageApp&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec" />
+<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=CovoiturageApp&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec" />
 </a>
 </td>
 <td width="50%" valign="middle" align="center">
@@ -114,8 +114,8 @@ AI-powered structured document generation (DOCX/PPTX) via a multi-provider LLM e
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=yasserbadri&show_icons=true&hide_border=true&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&bg_color=00000000" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yasserbadri&layout=compact&hide_border=true&title_color=0b6e63&text_color=1e2521&bg_color=00000000" />
+<img height="165" src="https://github-readme-stats-grmi.vercel.app/api?username=yasserbadri&show_icons=true&hide_border=true&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&bg_color=00000000" />
+<img height="165" src="https://github-readme-stats-grmi.vercel.app/api/top-langs/?username=yasserbadri&layout=compact&hide_border=true&title_color=0b6e63&text_color=1e2521&bg_color=00000000" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=yasserbadri&hide_border=true&background=00000000&ring=0b6e63&fire=c98f2a&currStreakLabel=0b6e63&sideLabels=1e2521&currStreakNum=1e2521&sideNums=1e2521&dates=6b7268" />
 
