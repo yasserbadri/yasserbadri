@@ -83,12 +83,12 @@ FastAPI, Angular, Spring Boot, LLM integration, Docker/K8s
 <tr>
 <td width="50%">
 <a href="https://github.com/yasserbadri/AI_Content_Platform">
-<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=AI_Content_Platform&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec" />
+<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=AI_Content_Platform&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec&v=2" />
 </a>
 </td>
 <td width="50%">
 <a href="https://github.com/yasserbadri/EasyFreelance">
-<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=EasyFreelance&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec" />
+<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=EasyFreelance&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec&v=2" />
 </a>
 </td>
 </tr>
