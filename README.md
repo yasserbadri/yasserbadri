@@ -91,19 +91,38 @@ FastAPI, Angular, Spring Boot, LLM integration, Docker/K8s
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,cs,python,js,html,css,angular,react&theme=dark" />
+<sub><b>Languages</b></sub>
 <br/>
-<img src="https://skillicons.dev/icons?i=fastapi,spring,dotnet,django,nodejs,graphql&theme=dark" />
-<br/>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,postgres,mysql,mongodb,nginx,git,github,postman&theme=dark" />
+<img src="https://skillicons.dev/icons?i=java,c,cs,python,php,js,ts,html,css&theme=dark" />
 
 <br/><br/>
 
+<sub><b>Back-end &amp; Front-end</b></sub>
+<br/>
+<img src="https://skillicons.dev/icons?i=fastapi,spring,dotnet,django,nodejs,graphql,angular,react,flutter&theme=dark" />
+
+<br/><br/>
+
+<sub><b>Databases &amp; DevOps</b></sub>
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,docker,kubernetes,nginx,gitlab,linux&theme=dark" />
+
+<br/><br/>
+
+<sub><b>Tools</b></sub>
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,postman,vscode&theme=dark" />
+
+<br/><br/>
+
+<sub><b>AI / LLM &amp; Auth</b></sub>
+<br/>
 ![OpenAI](https://img.shields.io/badge/GPT--4o-0B6E63?style=flat-square&logo=openai&logoColor=white)
 ![Mistral](https://img.shields.io/badge/Mistral-C98F2A?style=flat-square&logo=mistralai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-1E2521?style=flat-square&logo=googlegemini&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-0B6E63?style=flat-square&logo=ollama&logoColor=white)
 ![Keycloak](https://img.shields.io/badge/Keycloak-C98F2A?style=flat-square&logo=keycloak&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-1E2521?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
 </div>
 
@@ -125,42 +144,10 @@ FastAPI, Angular, Spring Boot, LLM integration, Docker/K8s
 <td width="6" bgcolor="#0B6E63"></td>
 <td bgcolor="#F4F2EC">
 
-**[CovoiturageApp](https://github.com/yasserbadri/CovoiturageApp)**
-No description provided.
+**[DocLink](https://github.com/yasserbadri/DocLink)**
+Medical appointment booking platform on a microservices architecture, deployed on AWS with Docker & Kubernetes.
 
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white) ![C++](https://img.shields.io/badge/C++-6b7268?style=flat-square&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-6b7268?style=flat-square&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-6b7268?style=flat-square&logoColor=white)
-
-</td>
-</tr>
-</table>
-</td>
-<td width="50%" valign="top">
-<table cellpadding="14" cellspacing="0" width="100%">
-<tr>
-<td width="6" bgcolor="#C98F2A"></td>
-<td bgcolor="#F4F2EC">
-
-**[EasyFreelance](https://github.com/yasserbadri/EasyFreelance)**
-EasyFreelance
-
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logoColor=white)
-
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<table cellpadding="14" cellspacing="0" width="100%">
-<tr>
-<td width="6" bgcolor="#0B6E63"></td>
-<td bgcolor="#F4F2EC">
-
-**[AI_Content_Platform](https://github.com/yasserbadri/AI_Content_Platform)**
-No description provided.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logoColor=white) ![Dockerfile](https://img.shields.io/badge/Dockerfile-384D54?style=flat-square&logoColor=white)
+`Spring Boot` `Angular` `PostgreSQL`
 
 </td>
 </tr>
@@ -172,10 +159,10 @@ No description provided.
 <td width="6" bgcolor="#C98F2A"></td>
 <td bgcolor="#F4F2EC">
 
-**GenAI4Doc** · *🔒 private — final-year internship @ CETIC, Belgium*
-AI platform for generating structured documents (DOCX/PPTX), based on a three-phase engine (placeholders, REPEAT blocks, LLM calls) processing documents averaging 15 pages in ~20s. Integrates 5 LLM providers (GPT-4o, Mistral, Gemini, Ollama, Scaleway AI) with Keycloak SSO, async FastAPI backend on PostgreSQL, and an Angular 21 front-end with a visual editor. Deployed with Docker Compose, Nginx and GitLab CI/CD.
+**[Deephire](https://github.com/yasserbadri/Deephire)**
+Recruitment platform with AI-based automatic resume screening and centralized interview management.
 
-![FastAPI](https://img.shields.io/badge/FastAPI-6b7268?style=flat-square&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6b7268?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-6b7268?style=flat-square&logoColor=white) ![Keycloak](https://img.shields.io/badge/Keycloak-6b7268?style=flat-square&logoColor=white)
+`Spring Boot` `Angular` `MySQL`
 
 </td>
 </tr>
