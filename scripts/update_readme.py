@@ -95,10 +95,10 @@ def lang_badge(name: str) -> str:
     return f"![{name}](https://img.shields.io/badge/{label}-{color}?style=flat-square&logoColor=white)"
 
 
-ACCENT_COLORS = ["#0B6E63", "#C98F2A"]  # alterné teal / or
+ACCENT_ICONS = ["accent-teal.svg", "accent-gold.svg"]  # alterné teal / or
 
 
-def build_card(repo: str, accent: str) -> str | None:
+def build_card(repo: str, accent_icon: str) -> str | None:
     data = fetch_repo(repo)
     if data is None:
         return None
@@ -117,36 +117,26 @@ def build_card(repo: str, accent: str) -> str | None:
     title = f"**{repo}**{private_tag}" if is_private else f"**[{repo}]({url})**"
 
     return (
-        f"<td width=\"50%\" valign=\"top\">\n"
-        f"<table cellpadding=\"14\" cellspacing=\"0\" width=\"100%\">\n"
-        f"<tr>\n"
-        f"<td width=\"6\" bgcolor=\"{accent}\"></td>\n"
-        f"<td bgcolor=\"#F4F2EC\">\n\n"
-        f"{title}\n"
-        f"{description}\n\n"
-        f"{badges}\n\n"
-        f"</td>\n"
-        f"</tr>\n"
-        f"</table>\n"
+        f"<td width=\"50%\" valign=\"top\">\n\n"
+        f"> <img src=\"assets/icons/{accent_icon}\" width=\"10\" height=\"10\" valign=\"middle\"/> {title}\n"
+        f">\n"
+        f"> {description}\n"
+        f">\n"
+        f"> {badges}\n\n"
         f"</td>"
     )
 
 
-def build_manual_card(project: dict, accent: str) -> str:
+def build_manual_card(project: dict, accent_icon: str) -> str:
     badges = " ".join(lang_badge(name) for name in project.get("languages", []))
     note = f" · *{project['note']}*" if project.get("note") else ""
     return (
-        f"<td width=\"50%\" valign=\"top\">\n"
-        f"<table cellpadding=\"14\" cellspacing=\"0\" width=\"100%\">\n"
-        f"<tr>\n"
-        f"<td width=\"6\" bgcolor=\"{accent}\"></td>\n"
-        f"<td bgcolor=\"#F4F2EC\">\n\n"
-        f"**{project['name']}**{note}\n"
-        f"{project['description']}\n\n"
-        f"{badges}\n\n"
-        f"</td>\n"
-        f"</tr>\n"
-        f"</table>\n"
+        f"<td width=\"50%\" valign=\"top\">\n\n"
+        f"> <img src=\"assets/icons/{accent_icon}\" width=\"10\" height=\"10\" valign=\"middle\"/> **{project['name']}**{note}\n"
+        f">\n"
+        f"> {project['description']}\n"
+        f">\n"
+        f"> {badges}\n\n"
         f"</td>"
     )
 
@@ -156,20 +146,20 @@ def build_table(cards: list[str]) -> str:
     for i in range(0, len(cards), 2):
         pair = cards[i:i + 2]
         rows.append("<tr>\n" + "\n".join(pair) + "\n</tr>")
-    return "<table cellspacing=\"10\" width=\"100%\">\n" + "\n".join(rows) + "\n</table>"
+    return "<table width=\"100%\">\n" + "\n".join(rows) + "\n</table>"
 
 
 def main() -> None:
     cards = []
     for repo in FEATURED_REPOS:
-        accent = ACCENT_COLORS[len(cards) % 2]
-        card = build_card(repo, accent)
+        accent_icon = ACCENT_ICONS[len(cards) % 2]
+        card = build_card(repo, accent_icon)
         if card:
             cards.append(card)
 
     for project in MANUAL_PROJECTS:
-        accent = ACCENT_COLORS[len(cards) % 2]
-        cards.append(build_manual_card(project, accent))
+        accent_icon = ACCENT_ICONS[len(cards) % 2]
+        cards.append(build_manual_card(project, accent_icon))
 
     if not cards:
         print("[error] Aucun projet récupéré, README non modifié.")
