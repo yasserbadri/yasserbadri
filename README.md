@@ -136,69 +136,45 @@ FastAPI, Angular, Spring Boot, LLM integration, Docker/K8s
 
 <!-- PROJECTS:START -->
 
-<table cellspacing="10" width="100%">
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
-<table cellpadding="14" cellspacing="0" width="100%">
-<tr>
-<td width="6" bgcolor="#0B6E63"></td>
-<td bgcolor="#F4F2EC">
 
-**[CovoiturageApp](https://github.com/yasserbadri/CovoiturageApp)**
-No description provided.
+> <img src="assets/icons/accent-teal.svg" width="10" height="10" valign="middle"/> **[CovoiturageApp](https://github.com/yasserbadri/CovoiturageApp)**
+>
+> No description provided.
+>
+> ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white) ![C++](https://img.shields.io/badge/C++-6b7268?style=flat-square&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-6b7268?style=flat-square&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-6b7268?style=flat-square&logoColor=white)
 
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logoColor=white) ![C++](https://img.shields.io/badge/C++-6b7268?style=flat-square&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-6b7268?style=flat-square&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-6b7268?style=flat-square&logoColor=white)
-
-</td>
-</tr>
-</table>
 </td>
 <td width="50%" valign="top">
-<table cellpadding="14" cellspacing="0" width="100%">
-<tr>
-<td width="6" bgcolor="#C98F2A"></td>
-<td bgcolor="#F4F2EC">
 
-**[EasyFreelance](https://github.com/yasserbadri/EasyFreelance)**
-EasyFreelance
+> <img src="assets/icons/accent-gold.svg" width="10" height="10" valign="middle"/> **[EasyFreelance](https://github.com/yasserbadri/EasyFreelance)**
+>
+> EasyFreelance
+>
+> ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logoColor=white)
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logoColor=white)
-
-</td>
-</tr>
-</table>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<table cellpadding="14" cellspacing="0" width="100%">
-<tr>
-<td width="6" bgcolor="#0B6E63"></td>
-<td bgcolor="#F4F2EC">
 
-**[AI_Content_Platform](https://github.com/yasserbadri/AI_Content_Platform)**
-No description provided.
+> <img src="assets/icons/accent-teal.svg" width="10" height="10" valign="middle"/> **[AI_Content_Platform](https://github.com/yasserbadri/AI_Content_Platform)**
+>
+> No description provided.
+>
+> ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logoColor=white) ![Dockerfile](https://img.shields.io/badge/Dockerfile-384D54?style=flat-square&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logoColor=white) ![Dockerfile](https://img.shields.io/badge/Dockerfile-384D54?style=flat-square&logoColor=white)
-
-</td>
-</tr>
-</table>
 </td>
 <td width="50%" valign="top">
-<table cellpadding="14" cellspacing="0" width="100%">
-<tr>
-<td width="6" bgcolor="#C98F2A"></td>
-<td bgcolor="#F4F2EC">
 
-**GenAI4Doc** · *🔒 private — final-year internship @ CETIC, Belgium*
-AI platform for generating structured documents (DOCX/PPTX), based on a three-phase engine (placeholders, REPEAT blocks, LLM calls) processing documents averaging 15 pages in ~20s. Integrates 5 LLM providers (GPT-4o, Mistral, Gemini, Ollama, Scaleway AI) with Keycloak SSO, async FastAPI backend on PostgreSQL, and an Angular 21 front-end with a visual editor. Deployed with Docker Compose, Nginx and GitLab CI/CD.
+> <img src="assets/icons/accent-gold.svg" width="10" height="10" valign="middle"/> **GenAI4Doc** · *🔒 private — final-year internship @ CETIC, Belgium*
+>
+> AI platform for generating structured documents (DOCX/PPTX), based on a three-phase engine (placeholders, REPEAT blocks, LLM calls) processing documents averaging 15 pages in ~20s. Integrates 5 LLM providers (GPT-4o, Mistral, Gemini, Ollama, Scaleway AI) with Keycloak SSO, async FastAPI backend on PostgreSQL, and an Angular 21 front-end with a visual editor. Deployed with Docker Compose, Nginx and GitLab CI/CD.
+>
+> ![FastAPI](https://img.shields.io/badge/FastAPI-6b7268?style=flat-square&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6b7268?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-6b7268?style=flat-square&logoColor=white) ![Keycloak](https://img.shields.io/badge/Keycloak-6b7268?style=flat-square&logoColor=white)
 
-![FastAPI](https://img.shields.io/badge/FastAPI-6b7268?style=flat-square&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6b7268?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-6b7268?style=flat-square&logoColor=white) ![Keycloak](https://img.shields.io/badge/Keycloak-6b7268?style=flat-square&logoColor=white)
-
-</td>
-</tr>
-</table>
 </td>
 </tr>
 </table>
