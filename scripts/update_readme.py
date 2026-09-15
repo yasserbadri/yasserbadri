@@ -95,7 +95,10 @@ def lang_badge(name: str) -> str:
     return f"![{name}](https://img.shields.io/badge/{label}-{color}?style=flat-square&logoColor=white)"
 
 
-def build_card(repo: str) -> str | None:
+ACCENT_COLORS = ["#0B6E63", "#C98F2A"]  # alterné teal / or
+
+
+def build_card(repo: str, accent: str) -> str | None:
     data = fetch_repo(repo)
     if data is None:
         return None
@@ -114,22 +117,36 @@ def build_card(repo: str) -> str | None:
     title = f"**{repo}**{private_tag}" if is_private else f"**[{repo}]({url})**"
 
     return (
-        f"<td width=\"50%\" valign=\"top\">\n\n"
+        f"<td width=\"50%\" valign=\"top\">\n"
+        f"<table cellpadding=\"14\" cellspacing=\"0\" width=\"100%\">\n"
+        f"<tr>\n"
+        f"<td width=\"6\" bgcolor=\"{accent}\"></td>\n"
+        f"<td bgcolor=\"#F4F2EC\">\n\n"
         f"{title}\n"
         f"{description}\n\n"
         f"{badges}\n\n"
+        f"</td>\n"
+        f"</tr>\n"
+        f"</table>\n"
         f"</td>"
     )
 
 
-def build_manual_card(project: dict) -> str:
+def build_manual_card(project: dict, accent: str) -> str:
     badges = " ".join(lang_badge(name) for name in project.get("languages", []))
     note = f" · *{project['note']}*" if project.get("note") else ""
     return (
-        f"<td width=\"50%\" valign=\"top\">\n\n"
+        f"<td width=\"50%\" valign=\"top\">\n"
+        f"<table cellpadding=\"14\" cellspacing=\"0\" width=\"100%\">\n"
+        f"<tr>\n"
+        f"<td width=\"6\" bgcolor=\"{accent}\"></td>\n"
+        f"<td bgcolor=\"#F4F2EC\">\n\n"
         f"**{project['name']}**{note}\n"
         f"{project['description']}\n\n"
         f"{badges}\n\n"
+        f"</td>\n"
+        f"</tr>\n"
+        f"</table>\n"
         f"</td>"
     )
 
@@ -139,18 +156,20 @@ def build_table(cards: list[str]) -> str:
     for i in range(0, len(cards), 2):
         pair = cards[i:i + 2]
         rows.append("<tr>\n" + "\n".join(pair) + "\n</tr>")
-    return "<table>\n" + "\n".join(rows) + "\n</table>"
+    return "<table cellspacing=\"10\" width=\"100%\">\n" + "\n".join(rows) + "\n</table>"
 
 
 def main() -> None:
     cards = []
     for repo in FEATURED_REPOS:
-        card = build_card(repo)
+        accent = ACCENT_COLORS[len(cards) % 2]
+        card = build_card(repo, accent)
         if card:
             cards.append(card)
 
     for project in MANUAL_PROJECTS:
-        cards.append(build_manual_card(project))
+        accent = ACCENT_COLORS[len(cards) % 2]
+        cards.append(build_manual_card(project, accent))
 
     if not cards:
         print("[error] Aucun projet récupéré, README non modifié.")
