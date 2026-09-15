@@ -1,0 +1,38 @@
+name: Update README projects & languages
+
+on:
+  schedule:
+    # Tous les lundis à 6h00 UTC — modifie librement
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}   # bouton "Run workflow" manuel dans l'onglet Actions
+  push:
+    branches: [main]      # se relance aussi à chaque commit sur le README
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update README from GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_readme.py
+
+      - name: Commit changes if any
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update projects & languages from GitHub API"
+          file_pattern: README.md
