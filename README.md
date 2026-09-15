@@ -113,6 +113,14 @@ No description provided.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logoColor=white) ![Dockerfile](https://img.shields.io/badge/Dockerfile-384D54?style=flat-square&logoColor=white)
 
 </td>
+<td width="50%" valign="top">
+
+**GenAI4Doc** · *🔒 private — final-year internship @ CETIC, Belgium*
+AI platform for generating structured documents (DOCX/PPTX), based on a three-phase engine (placeholders, REPEAT blocks, LLM calls) processing documents averaging 15 pages in ~20s. Integrates 5 LLM providers (GPT-4o, Mistral, Gemini, Ollama, Scaleway AI) with Keycloak SSO, async FastAPI backend on PostgreSQL, and an Angular 21 front-end with a visual editor. Deployed with Docker Compose, Nginx and GitLab CI/CD.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-6b7268?style=flat-square&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-6b7268?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-6b7268?style=flat-square&logoColor=white) ![Keycloak](https://img.shields.io/badge/Keycloak-6b7268?style=flat-square&logoColor=white)
+
+</td>
 </tr>
 </table>
 
