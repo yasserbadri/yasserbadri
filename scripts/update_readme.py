@@ -32,6 +32,28 @@ FEATURED_REPOS = [
     "AI_Content_Platform",
 ]
 
+# Projets qui n'existent PAS comme repo sur ton compte GitHub (ex: code sur un
+# GitLab d'entreprise, projet confidentiel de stage...) : impossible à
+# récupérer via l'API GitHub, donc on les décrit ici à la main. Le reste du
+# README (stats, langages, etc.) reste 100% automatique ; seule cette liste
+# nécessite une mise à jour manuelle si le contenu du projet change.
+MANUAL_PROJECTS = [
+    {
+        "name": "GenAI4Doc",
+        "note": "🔒 private — final-year internship @ CETIC, Belgium",
+        "description": (
+            "AI platform for generating structured documents (DOCX/PPTX), "
+            "based on a three-phase engine (placeholders, REPEAT blocks, LLM "
+            "calls) processing documents averaging 15 pages in ~20s. "
+            "Integrates 5 LLM providers (GPT-4o, Mistral, Gemini, Ollama, "
+            "Scaleway AI) with Keycloak SSO, async FastAPI backend on "
+            "PostgreSQL, and an Angular 21 front-end with a visual editor. "
+            "Deployed with Docker Compose, Nginx and GitLab CI/CD."
+        ),
+        "languages": ["FastAPI", "Angular", "PostgreSQL", "Docker", "Keycloak"],
+    },
+]
+
 README_PATH = "README.md"
 START_MARK = "<!-- PROJECTS:START -->"
 END_MARK = "<!-- PROJECTS:END -->"
@@ -80,15 +102,33 @@ def build_card(repo: str) -> str | None:
 
     description = data.get("description") or "No description provided."
     url = data.get("html_url", f"https://github.com/{USERNAME}/{repo}")
+    is_private = data.get("private", False)
 
     languages = fetch_languages(repo)
     top_langs = sorted(languages.items(), key=lambda kv: -kv[1])[:4]
     badges = " ".join(lang_badge(name) for name, _ in top_langs) or "_No language detected_"
 
+    private_tag = " 🔒 *private*" if is_private else ""
+    # Un repo privé n'a pas de page publique cliquable pour les visiteurs non connectés :
+    # on affiche donc le nom en gras sans lien plutôt qu'un lien mort pour eux.
+    title = f"**{repo}**{private_tag}" if is_private else f"**[{repo}]({url})**"
+
     return (
         f"<td width=\"50%\" valign=\"top\">\n\n"
-        f"**[{repo}]({url})**\n"
+        f"{title}\n"
         f"{description}\n\n"
+        f"{badges}\n\n"
+        f"</td>"
+    )
+
+
+def build_manual_card(project: dict) -> str:
+    badges = " ".join(lang_badge(name) for name in project.get("languages", []))
+    note = f" · *{project['note']}*" if project.get("note") else ""
+    return (
+        f"<td width=\"50%\" valign=\"top\">\n\n"
+        f"**{project['name']}**{note}\n"
+        f"{project['description']}\n\n"
         f"{badges}\n\n"
         f"</td>"
     )
@@ -108,6 +148,9 @@ def main() -> None:
         card = build_card(repo)
         if card:
             cards.append(card)
+
+    for project in MANUAL_PROJECTS:
+        cards.append(build_manual_card(project))
 
     if not cards:
         print("[error] Aucun projet récupéré, README non modifié.")
