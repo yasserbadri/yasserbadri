@@ -9,7 +9,7 @@
 <a href="https://www.linkedin.com/in/yasser-badrii"><img src="https://img.shields.io/badge/LinkedIn-0B6E63?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:badriiyasser@gmail.com"><img src="https://img.shields.io/badge/Email-C98F2A?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="tel:+21652663503"><img src="https://img.shields.io/badge/Phone-1E2521?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-0B6E63?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+<a href="https://yasserbadri.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0B6E63?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 
 <img src="https://komarev.com/ghpvc/?username=yasserbadri&label=Profile%20views&color=0b6e63&style=flat-square" />
 
@@ -32,7 +32,7 @@ GenAI4Doc — an AI document-generation platform (FastAPI + Angular + multi-LLM)
 Multi-agent orchestration & retrieval-augmented generation (RAG)
 
 **💼 Recently shipped**
-FastDelivery — delivery & order platform that drove a **+20%** sales increase
+FastDelivery — delivery & order platform (.NET Core + Angular) with 4 user roles
 
 </td>
 <td width="50%" valign="top">
@@ -59,11 +59,11 @@ FastAPI, Angular, Spring Boot, LLM integration, Docker/K8s
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,cs,python,js,html,css,angular,react&theme=light" />
+<img src="https://skillicons.dev/icons?i=java,cs,python,js,html,css,angular,react&theme=dark" />
 <br/>
-<img src="https://skillicons.dev/icons?i=fastapi,spring,dotnet,django,nodejs,graphql&theme=light" />
+<img src="https://skillicons.dev/icons?i=fastapi,spring,dotnet,django,nodejs,graphql&theme=dark" />
 <br/>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,postgres,mysql,mongodb,nginx,git,github,postman&theme=light" />
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,postgres,mysql,mongodb,nginx,git,github,postman&theme=dark" />
 
 <br/><br/>
 
@@ -81,28 +81,50 @@ FastAPI, Angular, Spring Boot, LLM integration, Docker/K8s
 
 <table>
 <tr>
-<td width="50%">
-<a href="https://github.com/yasserbadri/AI_Content_Platform">
-<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=AI_Content_Platform&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec&v=2" />
-</a>
+<td width="50%" valign="top">
+
+**🏥 [DocLink](https://github.com/yasserbadri/DocLink)**
+Medical appointment booking platform on a microservices architecture, deployed on AWS with Docker & Kubernetes. Includes an AI module for preliminary disease-detection support. Team of 5.
+`Spring Boot` `Angular` `PostgreSQL` `AWS` `Kubernetes`
+
 </td>
-<td width="50%">
-<a href="https://github.com/yasserbadri/EasyFreelance">
-<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=EasyFreelance&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec&v=2" />
-</a>
+<td width="50%" valign="top">
+
+**👔 [Deephire](https://github.com/yasserbadri/Deephire)**
+Recruitment platform with AI-based automatic resume screening and centralized interview management. Team of 5.
+`Spring Boot` `Angular` `Docker` `MySQL`
+
 </td>
 </tr>
 <tr>
-<td width="50%">
-<a href="https://github.com/yasserbadri/CovoiturageApp">
-<img width="100%" src="https://github-readme-stats-grmi.vercel.app/api/pin/?username=yasserbadri&repo=CovoiturageApp&theme=default&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&border_color=e1eeec" />
-</a>
-</td>
-<td width="50%" valign="middle" align="center">
+<td width="50%" valign="top">
 
-**GenAI4Doc** · *not public yet*
+**🤖 GenAI4Doc** · *private — final-year internship*
 AI-powered structured document generation (DOCX/PPTX) via a multi-provider LLM engine — GPT-4o, Mistral, Gemini, Ollama — with Keycloak SSO.
 `FastAPI` `Angular` `PostgreSQL` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+**🚗 [CovoiturageApp](https://github.com/yasserbadri/CovoiturageApp)**
+Mobile carpooling app connecting travelers with drivers heading the same way. Ride search & booking built with Flutter, backed by a Node.js/Express REST API.
+`Flutter` `Node.js` `Express`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**💼 [EasyFreelance](https://github.com/yasserbadri/EasyFreelance)**
+Freelancer/client matchmaking platform with negotiation, secure payments and ratings — profiles, project tracking and proposals exposed through a GraphQL API.
+`GraphQL` `Node.js`
+
+</td>
+<td width="50%" valign="top">
+
+**✨ [AI_Content_Platform](https://github.com/yasserbadri/AI_Content_Platform)**
+SaaS platform for AI-assisted content generation (Google Gemini): prompt template management, async generation via Celery/Redis, billing module, JWT auth.
+`Python` `Celery` `Redis` `Docker`
 
 </td>
 </tr>
@@ -114,12 +136,12 @@ AI-powered structured document generation (DOCX/PPTX) via a multi-provider LLM e
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-grmi.vercel.app/api?username=yasserbadri&show_icons=true&hide_border=true&title_color=0b6e63&icon_color=c98f2a&text_color=1e2521&bg_color=00000000" />
-<img height="165" src="https://github-readme-stats-grmi.vercel.app/api/top-langs/?username=yasserbadri&layout=compact&hide_border=true&title_color=0b6e63&text_color=1e2521&bg_color=00000000" />
+<img height="165" src="https://github-readme-stats-grmi.vercel.app/api?username=yasserbadri&show_icons=true&hide_border=true&theme=tokyonight&bg_color=00000000" />
+<img height="165" src="https://github-readme-stats-grmi.vercel.app/api/top-langs/?username=yasserbadri&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yasserbadri&hide_border=true&background=00000000&ring=0b6e63&fire=c98f2a&currStreakLabel=0b6e63&sideLabels=1e2521&currStreakNum=1e2521&sideNums=1e2521&dates=6b7268" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=yasserbadri&hide_border=true&background=00000000&theme=tokyonight" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=yasserbadri&theme=flat&no-frame=true&column=4&margin-w=8&margin-h=8&title=Contributor,Stars,Followers,Repositories" />
+<img src="https://github-profile-trophy.vercel.app/?username=yasserbadri&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8&title=Contributor,Stars,Followers,Repositories" />
 
 </div>
 
